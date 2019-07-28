@@ -3,4 +3,5 @@ def my_each(collection)
   while i < array.length do 
     yield collection[i]
     i += 1
+  end
 end
